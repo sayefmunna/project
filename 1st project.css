@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    margin-left: 57px;
+}
+.one-nav li{
+    padding: 12px;
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+}
+.one-nav li a{
+    text-decoration: none;
+    color: black;
+}
+.banner img{
+    width: 100%;
+}
+.section{
+    background-color:whitesmoke;
+    padding: 80px;
+}
+.card{
+    background-color: rgb(250, 247, 243);
+    padding: 80px;
+}
+.card-item {
+   display: flex;
+   justify-content: center;
+}
+.card-item img{
+    width: 30%;
+}
+.passege h3{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.passege p{
+    font-weight: 400;
+    font-size: 15px;
+   font-family: 'Times New Roman', Times, serif;
+}
+.hover{
+    padding: 10px;
+}
+.hover:hover{
+    background-color: rgb(250, 220, 225);
+}
+.Company{
+    background-color:whitesmoke;
+    margin: 80px 0;
+    padding: 30px 0;
+}
+.Company h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Company h1{
+    font-weight: 500;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Company p{
+    color: rgb(94, 92, 92);
+    font-weight: 400;
+    font-size: 15px;
+}
+.creat-section{
+    padding: 80px;
+    background-color: rgb(252, 251, 249);
+}
+.third-banner h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.third-banner h2{
+    font-weight: 500;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.third-banner p{
+    color: rgb(94, 92, 92);
+    font-weight: 400;
+    font-size: 15px;
+}
+.card-list-four  {
+    background-color: whitesmoke;
+    padding: 40px 80px;
+}
+.four-card h3{
+    color: rgb(247, 70, 99);
+    font-weight: 500;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.four-card p{
+    color: rgb(94, 92, 92);
+    font-weight: 400;
+    font-size: 14px;
+}
+.four-card-row img{
+    background-color: black;
+    padding: 8px;
+    border-radius: 50%;
+}
+.story-section{
+    background-color:  rgb(252, 251, 249);
+    padding: 90px;
+}
+.second-heading h4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second-heading h2{
+    font-weight: 500;
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.second-heading p{
+    color: rgb(94, 92, 92);
+    font-weight: 400;
+    font-size: 14px;
+}
+.second-banner img{
+    width: 100%;
+}
+.four-devid{
+   background-color: #046b8d;
+   margin-left: -10px;
+}
+.block{
+   padding-top: 15px;
+}
+.block h2{
+    font-weight: 600;
+}
+.block h5{
+    font-size: px;
+}
+
+.AD{
+    padding: 2px;
+}
+.AWA{
+    background-color: black;
+    padding: 30px 0;
+}
+.AWA:hover{
+    background-color: rgb(207, 65, 14);
+}
+.passege-white p{
+    color: white;
+    font-size: 12px;
+}
+.img-list img{
+    width: 20%;
+    border-radius: 50%;
+}
+.expert-ceo h6{
+    font-weight: 700;
+    font-size: 20px;
+}
+.expert-Azi p{
+    font-size: 10px;
+}
+.border-side{
+    margin-top: -20px;
+}
+.Four-img-section-list{
+    background-color: aliceblue;
+    padding: 80px 0;
+}
+.four-img-row img{
+    width: 100%;
+}
+.Footer-text li{
+    text-decoration: none;
+}
+.Footer{
+    background-color: black;
+}
+.passege-footer h3{
+    color: white;
+}
+.passege-footer p{
+    color: white;
+}
+.Footer-text li{
+    color: white;
+}
+.btm{
+    padding: 3px 68px;
+    background-color: aqua;
+    margin-top: 10px;
+}
+input{
+    margin-top: 10px;
+}
+
+
+
+
+
+.slite {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 277px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 0;
+    height: 100%;
+    width: 92%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #046b8d;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.5;
+  }
+  
+  .text {
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 20px;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.ul-list{
+    display: flex;
+}
+.ul-list li {
+   display: inline-block;
+    text-decoration: none;
+}
+.ul-list li img{
+  position: relative;
+  top:110px;
+  right: 18px;
+}
+
+/* Blog Section*/
+
+.Blog-Banner{
+    background-color: rgb(233, 228, 224);
+    margin-top: 0px;
+}
+.read-more{
+    color: #046b8d;
+    margin-left: 0px;
+}
+.Optimizing{
+    margin-top: 120px;
+    background-color: white;
+    margin-left: 50px;
+    padding-bottom: 30px;
+}
+.Optimizing img{
+    padding: 40px;
+}
+.post{
+    font-size: 16px;
+    font-weight: 600;
+}
+.small-img p{
+    color: #046b8d;
+    font-size: 13px;
+}
+.Writting-section{
+ padding: 0px 35px;
+}
+.Writting-section p{
+    font-weight: 400;
+    font-size: 13px;
+}
+.Writting-section h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.text-text{
+    color: #046b8d;
+}
+.search-section{
+    margin-top: 120px;
+}
+.search{
+    margin-top: 120px;
+    margin-right: 80px;
+}
+.btnm{
+    background-color: black;
+    color: aliceblue;
+}
+.About-head{
+    background-color: aliceblue;
+    padding: 30px;
+}
+.About-head h2{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.About-head p{
+    font-size: 13px;
+    color: rgb(82, 80, 80);
+}
+.About-pessage{
+    padding-left: 60px;
+}
+.About-pessage h6{
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.About-pessage h2{
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0cap;
+}
+.three-list-icon{
+    margin-left: -20px;
+}
+.About-section{
+    padding: 82px 0;
+}
+.About-value-section{
+    background-color:aliceblue;
+}
+.nav-link{
+    font-size: 13px;
+    font-weight: 600;
+}
+.About-value h3{
+    font-size: 20px;
+    font-weight: 700px;
+}
+.About-value p{
+    font-size: 12px;
+    color: rgb(78, 76, 76);
+}
+.Our-Team-pessage{
+    padding: 50px 20px;
+}
+.Our-Team-pessage h6{
+    font-weight: 600;
+}
+.Our-Team-pessage h2{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Our-Team-pessage p{
+    font-size: 15px;
+    color: rgb(78, 76, 76);
+}
+.Our-Team-Banner{
+    padding: 50px 20px;
+}
+.four-card{
+    padding-top: 50px;
+}
+.satisfacion{
+  margin: 20px 0 0 0;
+ font-size: 12px;
+ font-weight: 600;
+ font-family: 'Times New Roman', Times, serif;
+}
+.card-list-next{
+    padding: 30px 0;
+}
+.passege h3{
+    font-size: 20px;
+}
+.passege p{
+    font-size: 14px;
+    color: rgb(78, 76, 76);
+}
+.last-input{
+    width: 100%;
+    height: 150px;
+}
+.last-button{
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+}
+.Form{
+    padding: 70px;
+}
+.narrow-p{
+    font-size: 13px;
+    color: rgb(80, 79, 79);
+}
+.Form h4{
+    color: rgb(247, 70, 99);
+    font-weight: 600
+}
+.Contact{
+    padding: 100px 50px;
+}
+.last-p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.Phone{
+    display: flex;
+    background-color: rgb(236, 228, 215);
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.Phone img{
+    width: 16%;
+    padding: 9px;
+}
+.Phone p{
+    font-size: 11px;
+ }
+ .Phone span{
+     font-size: 16px;
+     font-weight: 600;
+ }
+.Address img{
+    width: 16%;
+    height: auto;
+}
+.Address{
+    display: flex;
+    background-color: rgb(212, 231, 224);
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.Address p{
+   font-size: 11px;
+}
+.Address span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.Address img{
+   padding: 9px;
+}
